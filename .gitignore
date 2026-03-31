@@ -1,0 +1,30 @@
+# Data files
+*.csv
+*.csv.crswap
+
+# Model files (often > 100MB)
+models/
+*.joblib
+*.bin
+*.pt
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Metrics/Logs
+*/metrics/
+*/plots/
+catboost_info/
+
+# IDE/System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
